@@ -1,0 +1,47 @@
+Create a Python-based Excel Utility with a GUI that allows users to interactively work with Excel files. The utility should include the following features:
+
+1. File Selection:
+   - Allow users to browse and select Excel files (.xlsx, .xls)
+   - Display the selected filename
+
+2. Sheet Management:
+   - Show a dropdown of all available sheets in the Excel file
+   - Allow users to select which sheet to work with
+
+3. Column Selection:
+   - Display all available columns from the selected sheet
+   - Allow users to select multiple columns of interest
+   - Include buttons to add/remove columns from selection
+
+4. Save/Load Column Configurations:
+   - Allow users to save their column selections with a name
+   - Provide ability to load previously saved column configurations
+   - Handle mismatches between saved configurations and current sheets
+
+5. Data Display:
+   - Show selected columns in a scrollable table/grid view
+   - Implement proper scrolling for both horizontal and vertical navigation
+
+6. Filtering Capabilities:
+   - Filter data based on column values
+   - Support multiple filter conditions (equals, contains, greater than, less than, starts with, ends with)
+   - Make text-based filtering case-insensitive
+   - Apply filters to the current view
+
+7. Sorting Functionality:
+   - Sort displayed data by any column
+   - Support both ascending and descending sorting
+   - Sort only the current filtered data (not the entire dataset)
+
+8. Export Options:
+   - Export the current view (with filters and sorting applied) to Excel or CSV
+   - Generate intelligent filenames based on applied filters and sorts
+   - Include abbreviations and date stamps in export filenames
+
+9. Error Handling:
+   - Implement robust error handling for file operations
+   - Display user-friendly error messages
+
+The UI should be intuitive with clearly labeled sections and a clean layout. Use tkinter for the GUI and pandas for Excel handling. Make sure all functions work together seamlessly (e.g., applying a filter and then sorting should maintain the filtered context).
+
+Provide the complete Python code with proper documentation.
